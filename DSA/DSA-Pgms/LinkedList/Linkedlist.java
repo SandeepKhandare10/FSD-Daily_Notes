@@ -7,6 +7,7 @@ class Node1 {
     Node1(int data) {
         this.data = data;
         next = null;
+
     }
 }
 
