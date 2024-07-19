@@ -1,6 +1,5 @@
 package LinkedList;
 
-
 public class CustomLinkedList {
     class node1 {
         int data;
