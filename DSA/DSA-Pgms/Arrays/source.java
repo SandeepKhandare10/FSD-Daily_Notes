@@ -2,20 +2,29 @@ package Arrays;
 import java.util.Arrays;
 public class source {
     public static void main(String[] args) {
-        int [][] flats=new int[2][3];
-        flats[0][0]=101;
-        flats[0][1]=102;
-        flats[0][2]=103;
-        flats[1][0]=104;
-        flats[1][1]=105;
-        flats[1][2]=106;
+        int sum = 0;
+        int [][] flats=new int[3][3];
+        flats[0][0]=1;
+        flats[0][1]=2;
+        flats[0][2]=3;
+        flats[1][0]=4;
+        flats[1][1]=5;
+        flats[1][2]=6;
+        flats[2][0]=7;
+        flats[2][1]=8;
+        flats[2][2]=9;
+
         for (int i=0;i<flats.length;i++) {
             for (int j = 0; j < flats[i].length; j++) {
                 System.out.print(flats[i][j]);
                 System.out.print(" ");
+                sum+=flats[i][j];
+
             }
+
             System.out.println("");
         }
+        System.out.println(sum);
 //        for (int[] fjk:flats){
 //            System.out.println(fjk);
 //        }
