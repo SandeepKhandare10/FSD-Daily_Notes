@@ -8,7 +8,7 @@ public class balance {
 
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
-        boolean flag = true;
+        boolean flag = false;
         Stack<Character> sk = new Stack<>();
 
         for (int i = 0; i < str.length(); i++) {
@@ -18,11 +18,17 @@ public class balance {
             }else {
                 if (!sk.isEmpty()){
                     char y= sk.pop();
-                    if (x==')'&& y=='('||x==']'&& y=='['||x=='}'&& y=='{');
-                    flag=false;
+                    if (x==')'&& y=='('||x==']'&& y=='['||x=='}'&& y=='{');{
+                        flag=true;
+//                        System.out.println(flag);
+                    }
 
                 }
             }
-        }
+        }if (flag==true){
+            System.out.println("balance");
+        }else
+            System.out.println("Not balance");
+
     }
 }
