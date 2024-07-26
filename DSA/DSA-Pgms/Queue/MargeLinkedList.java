@@ -56,7 +56,12 @@ public class MargeLinkedList {
 
         return data;
     }
+void AddFiirst(int data){
+        Node newnode=new Node(data);
+        head=newnode;
+        newnode.next=head;
 
+}
     void addAlternate(int data) {
         length++;
         Node newNode = new Node(data);

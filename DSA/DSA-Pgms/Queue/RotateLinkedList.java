@@ -1,6 +1,6 @@
 package Queue;
 
-public class rotateLinkedList {
+public class RotateLinkedList {
 
     class Node {
         int data;
@@ -71,7 +71,7 @@ public class rotateLinkedList {
 
 //        10->20->30->40->50->60 k = 4 50->60->10->20->30->40.
 
-        rotateLinkedList list = new rotateLinkedList();
+        RotateLinkedList list = new RotateLinkedList();
 
         list.add(10);
         list.add(20);

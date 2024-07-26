@@ -61,7 +61,6 @@ public class PracticeQuations {
         return true;
     }
 
-
     static int distinctSubsequences(String str) {
 
         if (str.length() == 1)
@@ -81,7 +80,6 @@ public class PracticeQuations {
                 subString.add(sb.toString());
             }
         }
-
         for (int i = 0; i < subString.size(); i++) {
             for(int j = i+1 ;j < subString.size();j++){
                 if(subString.get(i).equals(subString.get(j))){
@@ -89,12 +87,8 @@ public class PracticeQuations {
                 }
             }
         }
-
         return subString.size() + 1;
     }
-
-
-
     public static void main(String[] args) {
 
 
