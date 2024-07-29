@@ -5,7 +5,7 @@ import java.util.Queue;
 
 public class QueueExp {
     public static void main(String arg[]) {
-        Queue<Integer> q = new LinkedList<Integer>();
+        Queue<Integer> q = new LinkedList<>();
 
         // Inserts elements to the end of the queue
         q.add(3);

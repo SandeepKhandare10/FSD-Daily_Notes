@@ -12,6 +12,7 @@ public class SecondLargestEle {
             if (arr[i] < largest) {
                 secondLargest = arr[i];
                 break;
+
             }
         }
 
