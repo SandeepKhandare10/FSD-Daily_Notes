@@ -9,7 +9,7 @@ public class SubString {
         int k=0;
         for (int i=0;i<str.length();i++){
             for (int j=i;j<str.length();j++){
-                s
+
                 System.out.println(str.substring(i,i+j));
             }
         }
