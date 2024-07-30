@@ -8,6 +8,7 @@ public class boundry2DArr {
         int n=sc.nextInt();
         int arr[][]=new int[m][n] ;
 
+
         int count =0;
 
         for (int i=0;i<m;i++){

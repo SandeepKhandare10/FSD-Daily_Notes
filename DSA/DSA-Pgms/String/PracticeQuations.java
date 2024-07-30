@@ -18,7 +18,6 @@ public class PracticeQuations {
                     count++;
                 else
                     count += 2;
-
                 if (str.charAt(i) == str.charAt(j - 1))
                     j--;
                 else if (str.charAt(j) == str.charAt(i + 1))

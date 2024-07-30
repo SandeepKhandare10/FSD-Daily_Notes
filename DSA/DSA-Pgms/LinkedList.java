@@ -19,7 +19,6 @@ public class LinkedList {
             head = newnode;
             return;
         }
-
         node last = head;
         while (last.next != null) {
             last = last.next;

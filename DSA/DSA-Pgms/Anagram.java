@@ -2,6 +2,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 public class Anagram {
     public static void main(String[] args) {
+
         StringBuilder sb = new StringBuilder();
         Scanner sc = new Scanner(System.in);
         String FisrstStr = sc.next();

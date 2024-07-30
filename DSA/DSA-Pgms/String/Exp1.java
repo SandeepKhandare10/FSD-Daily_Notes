@@ -20,6 +20,7 @@ public class Exp1 {
                 else if (str.charAt(j) == str.charAt(i + 1))
                     i++;
                 else {
+
                     i++;
                     j--;
                 }

@@ -6,6 +6,7 @@ public class Fibonachi {
         return ;
 
         int num =a+b;
+
           System.out.println(num);
           a=b;
           b=num;

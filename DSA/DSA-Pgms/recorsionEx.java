@@ -3,6 +3,7 @@ public class recorsionEx {
         if (x==1)
             return 1;
 //        System.out.print(x+" ");
+
        return x*fact(x-1);
 //        System.out.print(x+" ");
     }

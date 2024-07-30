@@ -4,6 +4,7 @@ public class MyLinkedList {
         int data;
         Node next;
     }
+
     Node head;
     Node tail;
     int count;
