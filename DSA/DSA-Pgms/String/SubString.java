@@ -2,16 +2,22 @@ package String;
 
 public class SubString {
 
-    public static void main(String[] args) {
-        String str ="abc";
-        int len=str.length();
-        int n=len+(len+1)/2;
-        int k=0;
-        for (int i=0;i<str.length();i++){
-            for (int j=i;j<str.length();j++){
+    public static void Substrings(String S) {
+        int count=0;
+        int n = S.length();
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j <= n; j++) {
 
-                System.out.println(str.substring(i,i+j));
+                String substring = S.substring(i, j);
+                System.out.println(substring);
+                count++;
             }
         }
+        System.out.println(count);
+    }
+
+    public static void main(String[] args) {
+        Substrings("abc");
+
     }
 }
