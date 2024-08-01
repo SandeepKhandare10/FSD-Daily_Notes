@@ -6,7 +6,8 @@ public class newarr {
     public static void main(String[] args) {
         int max = 0;
         int[] arr = new int[5];
-        arr[0] = 56;
+        arr[0] = 1;
+
         arr[1] = 10;
         arr[2] = 14;
         arr[3] = 8;
