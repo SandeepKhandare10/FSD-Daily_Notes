@@ -11,7 +11,6 @@ public class HashSet1 {
         hs.add(12);
         hs.add(13);
         hs.add(10);
-//        hs.add(null);
         System.out.println(hs.contains(10));
         System.out.println(hs +" ");
         System.out.println(hs.size());

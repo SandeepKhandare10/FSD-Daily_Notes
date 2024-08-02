@@ -3,7 +3,7 @@
 Welcome to my Full Stack Development (FSD) Notes Repository! This repository is a comprehensive collection of notes and resources that I have compiled while learning various technologies and concepts in the field of software development.
 
 ## Topics Covered
-
+   
 ### Java ☕
 - Fundamentals of Java
 - Object-Oriented Programming (OOP) in Java
