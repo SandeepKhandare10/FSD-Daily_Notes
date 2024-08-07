@@ -56,8 +56,8 @@ public class ExTree {
 
     }
     void insertdata(Node root,int key){
-        Queue<Node> qt= new LinkedList<>() {
-        }
+//        Queue<Node> qt= new LinkedList<>() {
+//        }
         if (root==null);
         return;
     }
