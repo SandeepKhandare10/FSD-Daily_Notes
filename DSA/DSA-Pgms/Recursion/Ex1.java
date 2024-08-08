@@ -13,7 +13,6 @@ public class Ex1 {
         i++;
         return printname(nm, n);
     }
-
     public static void main(String[] args) {
         Ex1 ex = new Ex1();
         ex.printname(ex.nm, ex.n);  // Call the method with the default values
