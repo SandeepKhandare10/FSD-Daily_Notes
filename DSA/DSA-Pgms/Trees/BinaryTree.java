@@ -23,16 +23,13 @@ public class BinaryTree {
             return;
         }
 
-        // Initialize a queue to store nodes
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
 
         while (!queue.isEmpty()) {
-            // Remove the front of the queue and print it
             TreeNode tempNode = queue.poll();
             System.out.print(tempNode.val + " ");
 
-            // Enqueue the left child
             if (tempNode.left != null) {
                 queue.add(tempNode.left);
             }
