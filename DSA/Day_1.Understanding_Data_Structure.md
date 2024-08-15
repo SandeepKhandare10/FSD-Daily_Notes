@@ -1,7 +1,7 @@
 # Data Structures
 
 ## Introduction
- 
+
 A **data structure** is a way of organizing and storing data in a computer so that it can be accessed and used efficiently. Proper use of data structures can make programs run faster and use less memory.
 
 ## Types of Data Structures (Predefine DSA)
