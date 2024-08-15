@@ -6,7 +6,7 @@ A **data structure** is a way of organizing and storing data in a computer so th
 
 ## Types of Data Structures (Predefine DSA)
 
-### 1. Array
+### 1. Array 
 An array is a data structure consisting of a collection of elements, each identified by at least one array index or key. All elements in an array are of the same type and memory size.
 
 **Real-time scenarios:**
