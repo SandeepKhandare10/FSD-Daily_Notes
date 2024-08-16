@@ -6,7 +6,7 @@ import java.util.Queue;
           Queue<Integer> queue=new LinkedList<>();
 
         public void push(int element) {
-            queue.add(element);
+            queue.add(element); 
             int size = queue.size();
             for (int i = 1; i < size; i++) {
                 queue.add(queue.remove());
