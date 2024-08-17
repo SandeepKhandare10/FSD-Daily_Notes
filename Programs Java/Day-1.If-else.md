@@ -10,7 +10,7 @@ public class ApplicantEvaluation {
 
         System.out.println("What is your qualification");
         System.out.println("Enter 1 for 10th");
-        System.out.println("Enter 2 for 12th");
+        System.out.println("Enter 2 for 12th"); 
         System.out.println("Enter 3 for graduation");
 
         int qualification = sc.nextInt();
