@@ -9,7 +9,7 @@ public class nhashset {
         hs.add(10);
 //        hs.add(20);
         hs.add(30);
-        hs.add(40);
+        hs.add(40); 
         hs.add(20);
         System.out.println(hs);
 //        hs.remove(10);
