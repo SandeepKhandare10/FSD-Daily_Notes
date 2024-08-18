@@ -25,7 +25,7 @@ The factorial of a number `n` (denoted as `n!`) is the product of all positive i
 - `0! = 1`
 
 ### Code Example
-```java
+```java 
 public class Factorial {
     public static int factorial(int n) {
         if (n == 0) { // Base case
