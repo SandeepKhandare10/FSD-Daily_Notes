@@ -21,7 +21,7 @@ Recursion is a programming technique where a method calls itself to solve a prob
 
 ## Example: Factorial
 The factorial of a number `n` (denoted as `n!`) is the product of all positive integers less than or equal to `n`. It is defined as:
-- `n! = n * (n - 1)!`
+- `n! = n * (n - 1)!` 
 - `0! = 1`
 
 ### Code Example
