@@ -25,10 +25,10 @@ A `String` variable contains a collection of characters surrounded by double quo
 Combining two strings using the `+` operator or the `concat()` method.
 
 ```java
-String firstName = "NITIN";
+String firstName = "abc";
 String lastName = "asd";
-System.out.println(firstName + lastName);         // NITINasd
-System.out.println(firstName.concat(lastName));   // NITINasd
+System.out.println(firstName + lastName);         // abcasd
+System.out.println(firstName.concat(lastName));   // abcasd
 ```
 
 ### Length()
