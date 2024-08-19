@@ -16,7 +16,7 @@ A `String` variable contains a collection of characters surrounded by double quo
     - Strings created using the `new` keyword are stored in the heap memory.
 
     ```java
-    String newName = new String("Ashpak");  // Stored in heap memory
+    String newName = new String("sandeep");  // Stored in heap memory
     ```
 
 ## String Methods and Operations
