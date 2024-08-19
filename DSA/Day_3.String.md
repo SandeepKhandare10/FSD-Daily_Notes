@@ -26,9 +26,9 @@ Combining two strings using the `+` operator or the `concat()` method.
 
 ```java
 String firstName = "NITIN";
-String lastName = "Patel";
-System.out.println(firstName + lastName);         // NITINPatel
-System.out.println(firstName.concat(lastName));   // NITINPatel
+String lastName = "asd";
+System.out.println(firstName + lastName);         // NITINasd
+System.out.println(firstName.concat(lastName));   // NITINasd
 ```
 
 ### Length()
