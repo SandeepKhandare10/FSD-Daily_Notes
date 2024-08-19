@@ -9,7 +9,7 @@ A `String` variable contains a collection of characters surrounded by double quo
     - Strings created using string literals are stored in a common pool and reused if they already exist.
 
     ```java
-    String name = "Ashpak";  // Stored in static memory (string pool)
+    String name = "Sandeep";  // Stored in static memory (string pool)
     ```
 
 2. **Using `new` Keyword**
