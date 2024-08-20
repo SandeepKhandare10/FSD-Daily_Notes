@@ -13,7 +13,7 @@ public class ApplicantEvaluation {
         System.out.println("Enter 2 for 12th");
         System.out.println("Enter 3 for graduation");
 
-        int qualification = sc.nextInt();
+        int qualification = sc.nextInt(); 
 
         System.out.println("Enter how many years of experience you have");
 

@@ -9,14 +9,14 @@ A `String` variable contains a collection of characters surrounded by double quo
     - Strings created using string literals are stored in a common pool and reused if they already exist.
 
     ```java
-    String name = "Ashpak";  // Stored in static memory (string pool)
+    String name = "Sandeep";  // Stored in static memory (string pool)
     ```
 
 2. **Using `new` Keyword**
     - Strings created using the `new` keyword are stored in the heap memory.
 
     ```java
-    String newName = new String("Ashpak");  // Stored in heap memory
+    String newName = new String("sandeep");  // Stored in heap memory
     ```
 
 ## String Methods and Operations
@@ -25,10 +25,10 @@ A `String` variable contains a collection of characters surrounded by double quo
 Combining two strings using the `+` operator or the `concat()` method.
 
 ```java
-String firstName = "NITIN";
-String lastName = "Patel";
-System.out.println(firstName + lastName);         // NITINPatel
-System.out.println(firstName.concat(lastName));   // NITINPatel
+String firstName = "abc";
+String lastName = "asd";
+System.out.println(firstName + lastName);         // abcasd
+System.out.println(firstName.concat(lastName));   // abcasd
 ```
 
 ### Length()
