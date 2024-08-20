@@ -55,7 +55,7 @@ public class findsum {
             System.out.println(ans[0]+" "+ans[1]);
         }
         System.out.println(Unicnumber(arr));
-//        System.out.println(arr.Math.Min);
+
 
     }
 }
