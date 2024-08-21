@@ -50,7 +50,7 @@ public class mergesort {
     }
 
     public static void main(String args[]) {
-        int arr[] = {12, 11, 13, 5, 6, 7};
+        int arr[] = {12, 11, 13, 5, 6, 7,25};
         int n = arr.length;
 
         mergeSort(arr, 0, n - 1);
