@@ -7,7 +7,7 @@ public class secondlagestele {
             if (arr[i]>max){
                 max=arr[i];
             }
-        }
+        } 
         return max;
     }
     static int findsecondmax(int [] arr){
