@@ -7,7 +7,7 @@ public class secondlagestele {
             if (arr[i]>max){
                 max=arr[i];
             }
-        }
+        } 
         return max;
     }
     static int findsecondmax(int [] arr){
@@ -22,7 +22,7 @@ public class secondlagestele {
         return secondmax;
     }
     public static void main(String[] args) {
-
+ 
     int[] arr={1,2,5,9,25,26,88,55,6,4,88,45};
 
         System.out.println(findmax(arr));
