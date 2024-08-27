@@ -7,7 +7,7 @@ A `String` variable contains a collection of characters surrounded by double quo
 
 1. **String Literal**
     - Strings created using string literals are stored in a common pool and reused if they already exist.
-
+ 
     ```java
     String name = "Sandeep";  // Stored in static memory (string pool)
     ```
