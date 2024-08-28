@@ -19,7 +19,7 @@ public class NLL {
             head=newNode;
             return;
         }
-        newNode.next=head;
+        newNode.next=head; 
         head=newNode;
     }
     void Dispaly() {
