@@ -12,7 +12,7 @@ public class NLL {
             this.data=data;
             next=null;
         }}
-
+ 
     void AddFirst(int data){
         node newNode = new node(data);
         if (head==null){
