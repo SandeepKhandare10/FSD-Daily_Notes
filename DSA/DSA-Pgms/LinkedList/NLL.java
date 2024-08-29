@@ -12,14 +12,14 @@ public class NLL {
             this.data=data;
             next=null;
         }}
-
+ 
     void AddFirst(int data){
         node newNode = new node(data);
         if (head==null){
             head=newNode;
             return;
         }
-        newNode.next=head;
+        newNode.next=head; 
         head=newNode;
     }
     void Dispaly() {
