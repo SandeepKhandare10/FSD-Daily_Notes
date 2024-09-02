@@ -13,7 +13,7 @@ Recursion is a programming technique where a method calls itself to solve a prob
 
 ## Important Points
 - When a function calls itself inside its call, it is called recursion.
-- Recursion is used to solve complex problems by dividing a bigger problem into smaller, more manageable problems.
+- Recursion is used to solve complex problems by dividing a bigger problem into smaller, more manageable problems. 
 - Recursion uses the call stack to keep track of recursive function calls.
 - It takes more memory due to the storage of function call information on the stack.
 - The approach of recursion is top-down (breaking down the problem) and then bottom-up (combining solutions to subproblems).
