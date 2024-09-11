@@ -6,7 +6,7 @@ public class SecondLargestEle {
 
         Arrays.sort(arr);
         int largest = arr[arr.length - 1];
-        int secondLargest = Integer.MIN_VALUE;
+        int secondLargest = Integer.MIN_VALUE; 
 
         for (int i = arr.length - 2; i >= 0; i--) {
             if (arr[i] < largest) {
