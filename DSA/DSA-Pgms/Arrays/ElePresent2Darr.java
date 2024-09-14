@@ -6,7 +6,7 @@ public class ElePresent2Darr {
             Scanner scanner = new Scanner(System.in);
 
 
-            int rows = scanner.nextInt();
+            int rows = scanner.nextInt(); 
 
             int cols = scanner.nextInt();
 
