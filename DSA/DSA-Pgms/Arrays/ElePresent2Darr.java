@@ -1,6 +1,6 @@
 package Arrays;
 import java.util.Scanner;
-public class ElePresent2Darr {
+public class ElePresent2Darr { 
 
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
