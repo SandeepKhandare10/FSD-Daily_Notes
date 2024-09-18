@@ -3,7 +3,7 @@ package LinkedList;
 public class CustomLinkedList {
     class node1 {
         int data;
-        node1 next;
+        node1 next; 
 
         public node1(int data) {
             this.data = data;
