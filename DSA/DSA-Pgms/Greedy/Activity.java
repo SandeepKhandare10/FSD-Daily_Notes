@@ -19,7 +19,7 @@ public class Activity {
                 @Override
                 public int compare(Activity a1, Activity a2) {
                     return Integer.compare(a1.end, a2.end);
-                }
+                } 
             });
 
             for (int i = 0; i < activities.length; i++) {
