@@ -24,7 +24,7 @@ Graph algorithms operate on graph data structures to solve problems related to c
 2. **Transportation Networks:** Graph algorithms are used to optimize routes, calculate the shortest path, and analyze traffic flow in transportation networks.  
 3. **Internet Routing:** Graph algorithms help optimize routing paths and detect network failures in internet routing.
 
-###  Dynamic Programming  
+###  Dynamic Programming
 Dynamic programming breaks down a complex problem into smaller subproblems and solves each subproblem only once.
 
 **Realtime Applications:**  
