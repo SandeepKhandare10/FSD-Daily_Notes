@@ -16,7 +16,7 @@ An array is a data structure consisting of a collection of elements, each identi
 
 ### 2. Stack 
 A stack is a linear data structure that follows the Last In First Out (LIFO) principle. The element inserted last into the stack is the first one to be removed. Stacks can be implemented using arrays, linked lists, or other data structures.
-
+ 
 **Real-time scenarios:**
 - **Browser History:** Tracks visited pages.
 - **Undo Operations:** In text editors and software.
