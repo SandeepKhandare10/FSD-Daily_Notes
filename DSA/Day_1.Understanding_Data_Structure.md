@@ -10,7 +10,7 @@ A **data structure** is a way of organizing and storing data in a computer so th
 An array is a data structure consisting of a collection of elements, each identified by at least one array index or key. All elements in an array are of the same type and memory size.
 
 **Real-time scenarios:**
-- **Database:** Used to store and retrieve data efficiently.
+- **Database:** Used to store and retrieve data efficiently. 
 - **Lists and Schedules:** Represent to-do lists where each element corresponds to a task.
 - **Game Development:** Used for levels, inventory items, characters, etc.
 
