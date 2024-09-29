@@ -11,7 +11,7 @@ public class ElePresent2Darr {
             int cols = scanner.nextInt();
 
             String[][] array = new String[rows][cols];
-
+ 
             scanner.nextLine();
             for (int i = 0; i < rows; i++) {
                 for (int j = 0; j < cols; j++) {
