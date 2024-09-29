@@ -1,38 +1,52 @@
 package Arrays;
 
-import java.util.Arrays;
+import java.util.*;
+import java.io.*;
 
 public class arrlargestEle {
+    public static Map<String, Integer> processData(ArrayList<String> array) {
+        Map<String, Integer> departmentToMaxSalary = new HashMap<>();
+        Map<String, Integer> departmentToMaxId = new HashMap<>();
+
+        for (String line : array) {
+            String[] fields = line.split(", ");
+            int employeeId = Integer.parseInt(fields[0]);
+            String department = fields[2];
+            int salary;
+
+            try {
+                salary = Integer.parseInt(fields[3]);
+            } catch (NumberFormatException e) {
+                System.out.println("Invalid salary entry: " + fields[3]);
+                continue;
+            }
+
+            if (!departmentToMaxId.containsKey(department) || employeeId > departmentToMaxId.get(department)) {
+                departmentToMaxId.put(department, employeeId);
+                departmentToMaxSalary.put(department, salary);
+            }
+        }
+
+        return departmentToMaxSalary;
+    }
+
     public static void main(String[] args) {
-        int[] arr = {5,1,1,2,0,0};
-        int temp;
-        int max = Integer.MIN_VALUE;
-        int sum = 0;
+        ArrayList<String> inputData = new ArrayList<>();
+        try {
+            Scanner in = new Scanner(new BufferedReader(new FileReader("input.txt")));
+            while (in.hasNextLine())
+                inputData.add(in.nextLine());
+            in.close();
 
-        // Calculate the sum of the array elements and find the maximum value
-        for (int i = 0; i < arr.length; i++) {
-            sum += arr[i];
-            if (arr[i] > max) {
-                max = arr[i];
-            }
+            Map<String, Integer> retVal = processData(inputData);
+            PrintWriter output = new PrintWriter(new BufferedWriter(new FileWriter("output.txt")));
+            for (Map.Entry<String, Integer> e : retVal.entrySet())
+                output.println(e.getKey() + ": " + e.getValue());
+            output.close();
+        } catch (IOException e) {
+            System.out.println("IO error in input.txt or output.txt");
         }
-
-        // Sort the array
-        for (int i = 0; i < arr.length - 1; i++) {
-            for (int j = i + 1; j < arr.length; j++) {
-                if (arr[i] > arr[j]) {
-                    temp = arr[i];
-                    arr[i] = arr[j];
-                    arr[j] = temp;
-                }
-            }
-        }
-
-        System.out.println("Maximum value in the array: " + max);
-        System.out.println("Sum of array elements: " + sum);
-        for (int i = 0; i < arr.length - 1; i++) {
-            System.out.println(arr[i]);
-        }
-        System.out.println("Sorted array: " + Arrays.toString(arr));
     }
 }
+
+
